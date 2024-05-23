@@ -49,6 +49,10 @@ ollama run phi3
 
 //启动本地API
 ollama serve
+
+//设置了端口为19090
+
+//访问 http://localhost:19090 提示：Ollama is running
 ```
 
 ``` C#
@@ -80,6 +84,9 @@ public async Task LocalModel_ExampleAsync(string messageAPIPlatform, string url,
 
     Console.WriteLine(response);
 }
+
+//调用
+await LocalModel_ExampleAsync("Ollama", "http://localhost:19090", "phi3");
 
 //输出内容
 /*
