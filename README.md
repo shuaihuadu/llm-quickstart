@@ -1,2 +1,5 @@
+# Let's learn about large language model together
 
-# [Ollama](./Ollama/Ollama.md)
+> Here are some notes on learning large models. There may be some errors, so corrections are welcome.
+
+- ## [Ollama](./Ollama/Ollama.md)
